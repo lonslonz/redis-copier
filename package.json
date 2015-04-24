@@ -1,7 +1,7 @@
 {
   "name": "redis-copier",
-  "version": "0.0.1",
-  "description": "copy a redis server's command to other server on run-time.",
+  "version": "0.0.2",
+  "description": "Copies commands of a redis server to another server in real time.",
   "main": "index.js",
   "scripts": {
     "test": ""
