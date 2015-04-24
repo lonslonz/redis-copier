@@ -34,7 +34,7 @@ Be careful that you don't use same server for source and destination server.
 
 or modify run.js (sample) and run it.
 
-   node run.js
+    node run.js
 
 If option's value is the part of word, it will be copied.
 For examples:
