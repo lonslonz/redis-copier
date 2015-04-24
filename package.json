@@ -1,0 +1,32 @@
+{
+  "name": "redis-copier",
+  "version": "0.0.1",
+  "description": "copy a redis server's command to other server on run-time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "redis",
+    "copy",
+    "command",
+    "replicate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lonslonz/redis-copier.git"
+  },
+  "author": "Jongmin Lee <lonslonz@gmail.com> (https://github.com/lonslonz)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lonslonz/redis-copier/issues"
+  },
+  "homepage": "https://github.com/lonslonz/redis-copier",
+  "dependencies": {
+    "log4js": "^0.6.24",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
