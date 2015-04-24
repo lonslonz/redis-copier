@@ -4,7 +4,7 @@
   "description": "copy a redis server's command to other server on run-time.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": ""
   },
   "keywords": [
     "redis",
