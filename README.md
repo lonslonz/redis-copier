@@ -1,10 +1,10 @@
 redis-copier
 ====
-Copy commands of a redis server to another server in real time.
+Copies commands of a redis server to another server in real time.
 
 # Description
 
-This module copy one server's commands to another simply.
+This module copies one server's commands to another simply.
 You can use it to make REDIS development environment on local PC.
 It uses MONITOR to get commands.
 
@@ -40,6 +40,6 @@ If option's value is the part of word, it will be copied.
 For examples:
 
     keysInclude: ["my"]
-    issuedCommand : set mykey 1
+    issued command to redis : set mykey 1
 
 this command will be copied.
